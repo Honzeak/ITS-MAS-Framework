@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.CAMPositionUpdateSkill" Collapsed="true">
+    <Position X="8" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\CAMPositionUpdateSkill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="iTSCommunicationSkill" />
+      <Field Name="vehicleInfoSkill" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.CongestionMonitorSkill" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="2" />
+    <AssociationLine Name="vehicleInfoSkill" Type="ItsAgentFramework.SmartRoutingAgent.VehicleInfoSkill">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.329" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAACAAgAAAAAAAAAAAAAAAAAABAAAQEg=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\CongestionMonitorSkill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="itsSkill" />
+      <Field Name="vehicleInfoSkill" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.SmartRoutingTask" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAIAAAAAAAAAAAAAFAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\SmartRoutingTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.VehicleAgent" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.VehicleDeliberation" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="ItsAgentFramework.SmartRoutingAgent.VehicleDeliberation.TaskOverrideOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleDeliberation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAAIADEgAAAAACAEgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleDeliberation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.VehicleInfoSkill" Collapsed="true">
+    <Position X="4.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAgAAAAAACAAAAQAAAABEAAAAAAEA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleInfoSkill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="carInfo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="DefaultRouteEndPoints" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.SmartRoutingAgent.VehicleSequencer" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleSequencer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.MAS_ITS.ItsAgentFramework.NavigationAgent.VehicleAgentWrapper" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\SmartRoutingAgent\VehicleAgentWrapper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="AITrafficCar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TurnTheGameOn.SimpleTrafficSystem.AITrafficCar" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AJIQoAAAAAAIMIEEkCBAAAQCMCSIACAoDhKFQAQCgAI=</HashCode>
+      <FileName>Assets\TurnTheGameOn\SimpleTrafficSystem\Scripts\AITrafficCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItsAgentFramework.Components.Agent&lt;TState&gt;" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Components\Agent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_deliberation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.Components.Deliberation&lt;TState&gt;" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAiAAAAgAAAAAACCAEAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Components\Deliberation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_sequencer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.Sequencer" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ItsAgentFramework.Sequencer.AddTaskOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\MAS-ITS\ItsAgentFramework\Components\Sequencer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAACAAACAABBAAAgQAIAAwIBACAAAAaAAAAEAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Components\Sequencer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentTask" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItsAgentFramework.Components.AgentTask" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAABCAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Components\AgentTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItsAgentFramework.Communication.ITSCommunicationSkill" Collapsed="true">
+    <Position X="8" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAEAAAAAAAAgAgA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Communication\CommunicationSkill-Impl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.MAS_ITS.ItsAgentFramework.Components.AgentMonoWrapper&lt;TState&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\MAS-ITS\ItsAgentFramework\Components\AgentMonoWrapper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="agent" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="TurnTheGameOn.SimpleTrafficSystem.CarAIWaypointInfo" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TurnTheGameOn\SimpleTrafficSystem\Scripts\Structs\AITrafficWaypointInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
